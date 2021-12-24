@@ -1,0 +1,41 @@
+.img {
+  max-width: 300px;
+  height: 220px;
+}
+.product-detail {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+.product-detail__img {
+  padding: 10px;
+}
+.product-detail__description {
+  padding: 0 10px;
+}
+.product-detail__description--title {
+  margin: 2px 0 0 0;
+}
+
+.product-detail__description--price {
+  color: darkred;
+}
+.product-detail__description--about {
+  max-width: 600px;
+}
+.tag {
+  padding: 4px;
+  border-radius: 10px;
+  font-size: 0.6rem;
+}
+.little-margin {
+  margin: 5px 0;
+}
+.warn {
+  color: white;
+  background-color: maroon;
+}
+.info {
+  background-color: steelblue;
+  color: white;
+}
